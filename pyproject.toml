@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "the-panel"
+version = "0.1.0"
+description = "A working reference implementation of 'the panel' - independent, mixed-provider AI review with quorum, dissent logging, and an audit trail - the companion code to the book 'The Panel: Building Software You Can Trust in the Age of AI'."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Rick Betteridge" }]
+dependencies = []
+
+[project.optional-dependencies]
+anthropic = ["anthropic>=0.40"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+panel = "panel.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["panel*"]
