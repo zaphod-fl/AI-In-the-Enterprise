@@ -1,6 +1,6 @@
 # the-panel
 
-A working reference implementation of "the panel" — the independent, multi-persona, mixed-model-provider review mechanism from the book **[*The Panel: Building Software You Can Trust in the Age of AI*](https://claude.ai/artifact/8zxXh2m7g1HDQ93dL5xs26)**.
+A working reference implementation of "the panel" — the independent, multi-persona, mixed-model-provider review mechanism from the book ***The Panel: Building Software You Can Trust in the Age of AI*** by Rick Betteridge (first edition, available in paperback and Kindle on Amazon).
 
 This isn't a product. It's proof that the pattern the book describes — five personas, each running a positive approach and a negative approach, voting toward a quorum that a dissent can't be silently outvoted from, with a generated audit trail instead of a design doc that trails the code — actually runs, end to end, today.
 
